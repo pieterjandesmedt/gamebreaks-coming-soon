@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GameBreaks | Coming Soon</title>
+    <link href="https://fonts.googleapis.com/css?family=Salsa:400" rel="stylesheet">
+    <link rel="stylesheet" href="css/bulma.css">
+    <style>
+		h1, h2, h3, h4, h5, h6 {
+			font-family: Salsa;
+		}
+
+        .input.is-ghost {
+            background: transparent;
+            border: solid 1px #ffffff;
+            color: #ffffff;
+        }
+
+        .input.is-ghost::placeholder {
+            color: #888888;
+        }
+
+        .button.is-ease {
+            color: #eeeeee;
+            border-color: #eeeeee;
+            transition: color 0.35s ease, border-color 0.35s ease;
+        }
+
+        .button.is-ease:hover {
+            color: #ffffff;
+            border-color: #ffffff;
+        }
+
+        .hero .subtitle {
+            padding: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+
+<section class="hero is-info is-fullheight bg-cover">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <div class="column is-6 is-offset-3">
+				<center>
+				<figure class="image is-128x128">
+					<img src="./img/gamebreaks-logo-2.png">
+				</figure>
+				</center>
+                <h1 class="is-size-1">
+                    GameBreaks
+                </h1>
+                <h2 class="subtitle">
+                    is coming soon!
+                </h2>
+                <form name="contact" method="POST" data-netlify="true" action="./success.html" netlify-honeypot="telephone">
+                    <div class="field is-grouped">
+                        <p class="control is-expanded">
+                            <input class="input is-rounded is-ghost has-text-centered" type="text" placeholder="je email-adres">
+                        </p>
+                    </div>
+					<div class="field is-hidden">
+						<label>
+						Don’t fill this out if you’re human: <input name="telephone" />
+						</label>
+					</div>
+                    <div class="field is-grouped is-grouped-centered">
+                        <p class="control">
+                            <a class="button is-white is-outlined is-rounded is-grouped-centered is-ease has-text-weight-bold">
+                                Hou me op de hoogte
+                            </a>
+                        </p>
+                    </div>
+            	</form>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
